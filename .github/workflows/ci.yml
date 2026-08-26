@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    name: E2E Suite (fixture server + real assertions)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js 20.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Run tests against the local fixture server
+        run: npm test
+        # Unlike a config-only validation, this actually starts a real
+        # (self-contained, no external dependency) fixture server and
+        # runs every assertion for real. 1 test is an intentional
+        # test.fixme with a tracked ticket ID, not a failure.

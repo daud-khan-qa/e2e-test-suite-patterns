@@ -1,0 +1,14 @@
+{
+  "name": "e2e-test-suite-patterns",
+  "version": "1.0.0",
+  "description": "Sanitized reference patterns from 438 Playwright E2E test cases authored and merged into a production SaaS codebase",
+  "scripts": {
+    "fixture-server": "node fixture-server/server.js",
+    "test": "node run-tests.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  },
+  "license": "MIT",
+  "author": "Daud Khan"
+}
