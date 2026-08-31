@@ -1,8 +1,9 @@
 # E2E Test Suite Patterns
 
 [![CI](https://github.com/daud-khan-qa/e2e-test-suite-patterns/actions/workflows/ci.yml/badge.svg)](https://github.com/daud-khan-qa/e2e-test-suite-patterns/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Playwright](https://img.shields.io/badge/tested%20with-Playwright-2EAD33.svg)](https://playwright.dev)
+
+**All rights reserved.** This repository is shared publicly for portfolio and demonstration purposes only. No license is granted to copy, modify, or redistribute this code without my permission.
 
 Sanitized reference implementation of the patterns behind 438 Playwright E2E test cases I personally authored and merged into a production SaaS codebase across 6 product modules.
 
