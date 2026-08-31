@@ -2,10 +2,7 @@
 
 [![CI](https://github.com/daud-khan-qa/e2e-test-suite-patterns/actions/workflows/ci.yml/badge.svg)](https://github.com/daud-khan-qa/e2e-test-suite-patterns/actions/workflows/ci.yml)
 [![Playwright](https://img.shields.io/badge/tested%20with-Playwright-2EAD33.svg)](https://playwright.dev)
-
 [![License: Source-Available](https://img.shields.io/badge/license-source--available-lightgrey.svg)](#license)
-
-**All rights reserved.** This repository is shared publicly for portfolio and demonstration purposes only. No license is granted to copy, modify, or redistribute this code without my permission.
 
 Sanitized reference implementation of the patterns behind 438 Playwright E2E test cases I personally authored and merged into a production SaaS codebase across 6 product modules.
 
@@ -119,6 +116,10 @@ The 1 skipped test is the `test.fixme` referenced above - a known, ticketed gap,
 - [`playwright-billing-qa-suite`](https://github.com/daud-khan-qa/playwright-billing-qa-suite) - the billing-specific patterns (dynamic button labels, Stripe soft-checks)
 - [`ai-agentic-qa-framework`](https://github.com/daud-khan-qa/ai-agentic-qa-framework) - the AI-agent-driven QA side of the work (browser automation, hydration reliability)
 - This repo is the disciplined, peer-reviewed, hand-authored E2E work the others build on top of.
+
+## License
+
+**All rights reserved.** This repository is shared publicly for portfolio and demonstration purposes only. No license is granted to copy, modify, or redistribute this code without my permission.
 
 ---
 Sanitized reference implementation - module names, routes, and business-specific copy are generalized placeholders. Test counts and the review discipline described reflect real production work.
